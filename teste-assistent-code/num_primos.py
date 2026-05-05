@@ -1,5 +1,12 @@
 def e_primo(n):
-    """Verifica se um número é primo."""
+    """Verifica se um número é primo.
+
+    Args:
+        n (int): Número inteiro a ser verificado.
+
+    Returns:
+        bool: True se o número for primo, False caso contrário.
+    """
     if n < 2:
         return False
     if n == 2:
